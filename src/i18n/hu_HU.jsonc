@@ -103,17 +103,17 @@
   "term.clearAll": "Összes törlése",
   "term.recentStations": "Nemrég játszott",
   "term.language": "Nyelv",
-  "term.funLanguages": "Játékos",
+  "term.funLanguages": "Szórakozás",
   "term.noLyrics": "Betöltés... / Dalszöveg nem található. / Instrumentális.",
-  "term.copyright": "Copyright",
+  "term.copyright": "Szerzői jog",
   "term.rightsReserved": "Minden jog fenntartva.",
-  "term.sponsor": "Támogasd ezt a projektet",
+  "term.sponsor": "Támogasd a projektet",
   "term.ciderTeam": "A Cider Csapata",
   "term.developer": "Fejlesztő",
-  "term.socialTeam": "Social Team",
-  "term.contributors": "Contributors",
-  "term.equalizer": "Equalizer",
-  "term.reset": "Reset",
+  "term.socialTeam": "Társaság",
+  "term.contributors": "Közreműködők",
+  "term.equalizer": "Hangszabályozó",
+  "term.reset": "Visszaállítás",
   "term.tracks": "zeneszám", // Assume x amount of tracks. e.g. 50 tracks 
   "term.videos": "Videók", 
   "term.menu": "Menü",
@@ -123,9 +123,9 @@
   "home.recentlyPlayed": "Nemrég játszott",
   "home.recentlyAdded": "Nemrég hozzáadott",
   "home.artistsFeed": "Az előadóid feedje",
-  "home.artistsFeed.noArtist": "Kövess néhány művészt, hogy a legújabb zenéik itt legyenek",
-  "home.madeForYou": "Személyre szabva",
-  "home.friendsListeningTo": "A barátok épp ezt hallgatják",
+  "home.artistsFeed.noArtist": "Kövess néhány előadót, hogy a legújabb zenéi itt legyenek",
+  "home.madeForYou": "Neked készítve",
+  "home.friendsListeningTo": "A barátaid épp ezt hallgatják",
   "home.followedArtists": "Követett előadók",
   // Errors
   "error.appleMusicSubRequired": "Apple Music előfizetés szükséges.",
@@ -141,12 +141,12 @@
   "podcast.itunesStore": "iTunes Store",
   "podcast.episodes": "Epizódok",
   "podcast.playEpisode": "Epizód lejátszása",
-  "podcast.website": "Podcast Weboldala",
+  "podcast.website": "Podcast weboldala",
 
   // Actions
   "action.addToLibrary": "Hozzáadás a Könyvtárhoz",
   "action.addToLibrary.success": "Hozzáadva a Könyvtárhoz",
-  "action.addToLibrary.error": "Hiba történt! Sikertelen hozzáadás.",
+  "action.addToLibrary.error": "Hiba a hozzáadáskor.",
   "action.removeFromLibrary": "Törlés a Könytárból",
   "action.removeFromLibrary.success": "Törölve a Könyvtárból",
   "action.addToQueue": "Hozzáadás a várólistához",
@@ -172,26 +172,26 @@
   "action.moveToTop": "Mozgatás legfelülre",
   "action.share": "Megosztás",
   "action.rename": "Átnevezés",
-  "action.love": "Szeretem",
-  "action.unlove": "Mégsem szeretem",
-  "action.dislike": "Kevesebb ilyen javasolása",
-  "action.undoDislike": "A Kevesebb ilyen javasolása visszavonása",
+  "action.love": "Kedvelés",
+  "action.unlove": "Kedvelés eltávolítása",
+  "action.dislike": "Nem tetszik",
+  "action.undoDislike": "",
   "action.showWebRemoteQR": "Távirányító QR kód megjelenítése",
-  "action.playTracksNext": "Play ${app.selectedMediaItems.length} tracks next",
-  "action.playTracksLater": "Play ${app.selectedMediaItems.length} tracks later",
-  "action.removeTracks": "Remove ${self.selectedItems.length} tracks from queue",
+  "action.playTracksNext": "${app.selectedMediaItems.length} lejátszása következőleg",
+  "action.playTracksLater": "${app.selectedMediaItems.length} lejátszása később",
+  "action.removeTracks": "${self.selectedItems.length} eltávolítása a várólistából",
   "action.import": "Importálás",
   "action.export": "Exportálás",
 
   // Settings - General
-  "settings.header.general": "General",
-  "settings.header.general.description": "Adjust the general settings for Cider.",
-  "settings.option.general.language": "Language",
+  "settings.header.general": "Általános",
+  "settings.header.general.description": "A Cider általános beállításainak módosítása.",
+  "settings.option.general.language": "Nyelv",
 
   // Language optgroups
-  "settings.option.general.language.main": "Languages",
-  "settings.option.general.language.fun": "Fun Languages",
-  "settings.option.general.language.unsorted": "Unsorted",
+  "settings.option.general.language.main": "Nyelvek",
+  "settings.option.general.language.fun": "Mókás Nyelvek",
+  "settings.option.general.language.unsorted": "Listázatlan",
   
   // Settings - Audio
   "settings.header.audio": "Hang",
@@ -211,7 +211,7 @@
   "settings.header.visual": "Vizuális", 
   "settings.header.visual.description": "A Cider vizuális beállításainak módosítása.",
   "settings.option.visual.windowBackgroundStyle": "Ablak háttér stílusa", // Toggle
-  "settings.header.visual.windowBackgroundStyle.none": "None",
+  "settings.header.visual.windowBackgroundStyle.none": "Egyik sem",
   "settings.header.visual.windowBackgroundStyle.artwork": "Borító",
   "settings.header.visual.windowBackgroundStyle.image": "Kép",
   "settings.option.visual.animatedArtwork": "Animált borító", // Dropdown
@@ -236,7 +236,7 @@
   "settings.header.lyrics": "Dalszöveg",
   "settings.header.lyrics.description": "A Cider dalszöveg beállításainak módosítása.",
   "settings.option.lyrics.enableMusixmatch": "MusixMatch dalszövegek engedélyezése", // Toggle
-  "settings.option.lyrics.enableMusixmatchKaraoke": "Karaoke mód bekapcsolása (Csak MusixMatch)", // Toggle
+  "settings.option.lyrics.enableMusixmatchKaraoke": "Karaoke mód bekapcsolása (Csak MusixMatch esetén)", // Toggle
   "settings.option.lyrics.musixmatchPreferredLanguage": "MusixMatch fordítás nyelve", // Dropdown
   "settings.option.lyrics.enableYoutubeLyrics": "YouTube dalszövegek engedélyezése a zenei videóknál", // Toggle
 
@@ -272,18 +272,18 @@
   "spatial.depth" : "Hosszúság",
   "spatial.gain" : "Gain",
   "spatial.roomMaterials" : "Szoba felépítése",
-  "spatial.roomDimensions" : "Room Dimensions",
-  "spatial.roomPositions" : "Room Positions",
-  "spatial.setDimensions" : "Set Dimensions",
-  "spatial.setPositions" : "Set Positions",
+  "spatial.roomDimensions" : "Szoba méretei",
+  "spatial.roomPositions" : "Szoba pozíciói",
+  "spatial.setDimensions" : "Méretek beállítása",
+  "spatial.setPositions" : "Pozíciók beállítása",
   "spatial.up" : "Fent",
   "spatial.front" : "Elől",
   "spatial.left" : "Balra",
   "spatial.right" : "Jobbra",
   "spatial.back" : "Hátul",
   "spatial.down" : "Lent",
-  "spatial.listener" : "Listener",
-  "spatial.audioSource" : "Audio Source",
+  "spatial.listener" : "Hallgató",
+  "spatial.audioSource" : "Hangforrás",
   
   // Settings - Unfinished
   "settings.header.unfinished": "Félkész",
